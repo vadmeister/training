@@ -1,6 +1,6 @@
-####################################Task 1
-values = input("Input some comma seprated numbers : ")
-list = values.split(",")
-tuple = tuple(list)
-print('List : ',list)
-print('Tuple : ',tuple)
+#Task 1 Write a script which accepts a sequence of comma-separated numbers from user and generate a list and a tuple
+numbers = input("Enter numbers separated by a comma: ")
+x = numbers.split(", ")
+y = tuple(x)
+print(x)
+print(y)
